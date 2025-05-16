@@ -1,37 +1,44 @@
-.main{
+.main {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 2em;
     background-color: #C2D2DA;
 }
-h3{
+
+h3 {
     margin-left: 2em;
     font-size: 23px;
-     cursor: pointer;
+    cursor: pointer;
 }
-.inner a{
-   text-decoration: none;
-   margin: 0 2.5em;
-   color: black;
-   font-size: 17px;
+
+.inner a {
+    text-decoration: none;
+    margin: 0 2.5em;
+    color: black;
+    font-size: 17px;
     cursor: pointer;
     position: relative;
 }
-.inner a::after{
-   content: "";
-   left: 0;
-   bottom: 0;
-   width: 0;
-   height: 2px;
-   position: absolute;
-   background-color: black;
-   transition: width 0.4s ease;
+
+.inner a::after {
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    background-color: black;
+    transition: width 0.4s ease;
 }
-.inner a:hover::after{
+
+.inner a:hover::after {
     width: 100%;
 }
-.btn{
+.inner a:active{
+    color: white;
+}
+.btn {
     padding: 0.7em 1em;
     border: 2px solid rgb(66, 65, 65);
     border-radius: 8px;
@@ -43,7 +50,8 @@ h3{
     overflow: hidden;
     z-index: 1;
 }
-.btn::after{
+
+.btn::after {
     content: "";
     width: 100%;
     height: 100%;
@@ -51,12 +59,73 @@ h3{
     background-color: #333232;
     left: 0;
     top: 100%;
-   transition: top 0.4s ease;
-   z-index: -1;
+    transition: top 0.4s ease;
+    z-index: -1;
 }
-.btn:hover::after{
-    top: 0; 
+
+.btn:hover::after {
+    top: 0;
 }
-.btn:hover{
-color: white;
+
+.btn:hover {
+    color: white;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    z-index: 20;
+    font-size: 28px;
+}
+
+@media (max-width: 975px) {
+    .inner a {
+        margin: 0 1.6em;
+    }
+}
+
+@media (max-width: 805px) {
+
+    .inner,
+    .btn,
+    .inner a::after,
+    .btn::after {
+        display: none;
+    }
+
+    .inner.show {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #C2D2DA;
+        width: 100%;
+        height: 45vh;
+        top: 70px;
+        left: 0px;
+        position: absolute;
+    }
+    .inner a {
+        margin: 0.9em 0;
+        font-size: 21px;
+    }
+
+    .btn {
+        border: none;
+        font-size: 21px;
+    }
+
+    .btn.show {
+        display: flex;
+        top: 315px;
+        right: 60px;
+    }
+
+    .inner a:hover {
+        color: white;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
 }
