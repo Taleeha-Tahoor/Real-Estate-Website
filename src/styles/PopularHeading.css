@@ -1,0 +1,38 @@
+.popularMain {
+    height: 600px;
+    background-color: #e9e9e9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 22px;
+}
+
+.first-p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.second-p {
+    font-weight: 600;
+}
+
+.popularSecond {
+    display: flex;
+    align-items: center;
+}
+
+.popularSecond i {
+    font-size: 40px;
+    padding-left: 7px;
+}
+
+@media (max-width: 843px) {
+    .popularMain {
+        height: 180px;
+    }
+
+    .popularSecond {
+        display: none;
+    }
+}

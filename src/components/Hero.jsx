@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Hero.css'
 import heroImage from '../assets/heroImage.png'
+import GetStarted from '../reusable/GetStarted'
 
 const Hero = () => {
     return (
@@ -12,7 +13,8 @@ const Hero = () => {
                 </h3>
                 <p>Want to find a home? We are ready to help you Find
                     one that suits your Lifestyle and needs</p>
-                <a href="#">Get Started</a>
+                {/* <a href="#">Get Started</a> */}
+                <GetStarted/>
 
                 <div className="stats">
                 <div className="col">
