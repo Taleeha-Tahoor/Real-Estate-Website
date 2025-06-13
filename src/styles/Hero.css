@@ -58,3 +58,31 @@
 .col p{
     color: #373838;
 }
+
+@media (max-width: 1064px) {
+    .leftSide h3{
+        font-size: 50px;
+    }
+}
+@media (max-width: 918px) {
+    .leftSide h3{
+        font-size: 45px;
+    }
+    .stats .col p{
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 805px) {
+    .two-column{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .rightSide img{
+        width: 100vw;
+    }
+    .leftSide{
+        padding: 3em 2em 0 2em;
+    }
+   
+}

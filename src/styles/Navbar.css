@@ -86,6 +86,9 @@ h3 {
 
 @media (max-width: 805px) {
 
+    .main h3{
+        margin-left: 0.4em;
+    }
     .inner,
     .btn,
     .inner a::after,
@@ -103,6 +106,7 @@ h3 {
         top: 70px;
         left: 0px;
         position: absolute;
+        z-index: 10;
     }
     .inner a {
         margin: 0.9em 0;
