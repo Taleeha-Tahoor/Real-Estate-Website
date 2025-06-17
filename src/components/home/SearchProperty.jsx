@@ -1,7 +1,7 @@
 import React from 'react'
-import "../styles/SearchProperty.css"
-import Input from '../reusable/Input'
-import GetStarted from '../reusable/GetStarted'
+import "../../styles/home/SearchProperty.css"
+import Input from '../../reusable/Input'
+import GetStarted from '../../reusable/GetStarted'
 
 const SearchProperty = () => {
   return (
@@ -9,7 +9,7 @@ const SearchProperty = () => {
         
       <div className='above'>
         <p>Search for available properties</p>
-        <GetStarted/>
+        <GetStarted width={150} height={50} fontSize={17}/>
       </div>
 
       <div className='below'>

@@ -1,10 +1,10 @@
 import React from 'react'
 
-const GetStarted = () => {
+const GetStarted = ({width, height, fontSize}) => {
   return (
     <div>
       <button style={{backgroundColor: "black", borderRadius: 8, color: 'white',
-        fontSize: 18, width: '180px', height: '60px'
+        fontSize: fontSize, width: width, height: height
       }}>
         Get Started
       </button>

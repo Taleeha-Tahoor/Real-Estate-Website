@@ -1,7 +1,7 @@
 import React from 'react'
-import '../styles/Hero.css'
-import heroImage from '../assets/heroImage.png'
-import GetStarted from '../reusable/GetStarted'
+import "../../styles/home/Hero.css"
+import heroImage from '../../assets/heroImage.png'
+import GetStarted from '../../reusable/GetStarted'
 
 const Hero = () => {
     return (
@@ -14,7 +14,7 @@ const Hero = () => {
                 <p>Want to find a home? We are ready to help you Find
                     one that suits your Lifestyle and needs</p>
                 {/* <a href="#">Get Started</a> */}
-                <GetStarted/>
+                <GetStarted width={180} height={60} fontSize={18}/>
 
                 <div className="stats">
                 <div className="col">

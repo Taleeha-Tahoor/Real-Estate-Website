@@ -1,19 +1,15 @@
 import { useState } from 'react'
-
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import SearchProperty from './components/SearchProperty'
-import PopularHeading from './components/PopularHeading'
+import Navbar from '../src/components/home/Navbar'
+import Index from '../src/components/home/Index'
 
 function App() {
 
   return (
-    <>
-   <Navbar/>
-   <Hero/>
-   <SearchProperty/>
-   <PopularHeading/>
+    <> 
+  <Navbar />
+  <Index />
     </>
+
   )
 }
 

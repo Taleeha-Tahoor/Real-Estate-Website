@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "../styles/Navbar.css"
+import "../../styles/home/Navbar.css"
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false)

@@ -1,0 +1,43 @@
+.property_main{
+    width: 350px;
+    height: 400px;
+   background-color: white;
+   /* position: absolute;
+   top: 168%;
+   left: 5%; */
+}
+.property_main img{
+    width: inherit;
+    height: 240px;
+    object-fit: cover;
+}
+.divs{
+    display: flex;
+    align-items: center;
+}
+.title{
+    padding: 3px 0 20px 10px;
+    font-size: 20px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #5e5c5c;
+    padding-bottom: 15px;
+}
+.pricing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 0 10px;
+}
+.pricing p{
+    font-size: 21px;
+}
+
+@media (max-width: 1115px) {
+    .property_main{
+        margin-bottom: 20px;
+    }
+}

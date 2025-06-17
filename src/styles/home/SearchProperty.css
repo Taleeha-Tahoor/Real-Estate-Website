@@ -3,10 +3,10 @@
     width: 70vw;
     height: 33vh;
     position: absolute;
-    /* top: 640px;
-    left: 180px; */
-    top: 92vh;
-    left: 16vw;
+    top: 620px;
+    left: 180px;
+    /* top: 103vh;
+    left: 16vw; */
 }
 .above{
     display: flex;

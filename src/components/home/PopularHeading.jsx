@@ -1,5 +1,5 @@
 import React from 'react'
-import "../styles/PopularHeading.css"
+import "../../styles/home/PopularHeading.css"
 
 const PopularHeading = () => {
   return (
