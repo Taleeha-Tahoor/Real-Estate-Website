@@ -1,6 +1,6 @@
 .first {
     background-color: #C2D2DA;
-
+    width: 100%;
 }
 
 .two-column {
@@ -74,6 +74,9 @@
 }
 
 @media (max-width: 805px) {
+    .first{
+        width: 100%;
+    }
     .two-column{
         flex-direction: column-reverse;
         height: auto;
