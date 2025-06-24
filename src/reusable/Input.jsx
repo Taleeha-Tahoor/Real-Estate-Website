@@ -1,12 +1,14 @@
 import React from 'react'
+import "./input.css"
 
 const Input = ({text, icon}) => {
   return (
-    <div style={{borderStyle: "solid" ,borderColor: 'black', borderWidth: 1.5, backgroundColor: "white",
-        borderRadius: 8, width: "25%", height: "55px", display: "flex", 
-        alignItems: "center", justifyContent: "space-around", fontSize: 19,
-    }}>
-      {text}
+    <div className='first-div'>
+
+      <input type="text"
+        placeholder={text}
+        className='input'
+        />
 
       <i className='material-icons'>{icon}</i>
     </div>

@@ -4,17 +4,20 @@
     position: absolute;
     top: 168%;
     width: 100%;
+    height: auto;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1200px) {
     .property_section{
+        position: relative;
         flex-wrap: wrap;
-        top: 170%;
+        /* top: 200%; */
+         background-color: #e9e9e9;
     }
 }
-@media (max-width: 843px){
+/* @media (max-width: 843px){
     .property_section{
         position: relative;
         background-color: #e9e9e9;
     }
-}
+} */

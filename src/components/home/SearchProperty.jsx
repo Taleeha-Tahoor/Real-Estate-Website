@@ -13,9 +13,9 @@ const SearchProperty = () => {
       </div>
 
       <div className='below'>
-    <Input text="Location" icon="location_on"/>
-    <Input text="Property Type" icon="home"/>
-    <Input text="Budget" icon="paid"/>
+    <Input text="Location" icon="location_on" />
+    <Input text="Property Type" icon="home" />
+    <Input text="Budget" icon="paid" />
       </div>
     </div>
   )

@@ -82,7 +82,7 @@
         height: auto;
     }
     .rightSide img{
-        width: 100vw;
+        width: 100%;
     }
     .leftSide{
         padding: 3em 2em 0 2em;

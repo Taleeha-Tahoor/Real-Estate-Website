@@ -1,0 +1,38 @@
+.first-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 205px;
+    height: 55px;
+}
+.input{
+    font-size: 19px;
+    width: 200px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.5px;
+    border-radius: 8px;
+}
+
+@media (max-width: 992px) {
+    .input{
+        font-size: 17px;
+        width: 165px;
+
+    }
+}
+@media (max-width: 600px) {
+    .input{
+        font-size: 17px;
+        width: 150px;
+
+    }
+}
+@media (max-width: 580px) {
+    .input{
+        font-size: 17px;
+        width: 200px;
+
+    }
+}

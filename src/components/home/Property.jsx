@@ -33,7 +33,7 @@ const Property = ({ img, title, bed_number, stat1, stat2, size, price }) => {
                 </div>
             </div>
         </div>
-    )
+    ) 
 }
 
 export default Property
